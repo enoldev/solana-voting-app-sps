@@ -35,12 +35,12 @@ export function handleTriggers(bytes: Uint8Array): void {
   for (let i = 0; i < input.voteList.length; i++) {
     let vote = input.voteList[i];
 
-    let candidateEntiy = Candidate.load(vote.candidateName);
-    if (candidateEntiy !== null) {
-      candidateEntiy.count += 1;
+    let candidateEntity = Candidate.load(vote.candidateName);
+    if (candidateEntity !== null) {
+      candidateEntity.count += 1;
 
       log.info("vote candidate pollId: {}, candidate: {}", [vote.pollId.toString(), vote.candidateName]);
-      candidateEntiy.save()
+      candidateEntity.save()
     }
   }
 

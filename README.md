@@ -1,4 +1,4 @@
-# Solana Voting Application
+# Solana Substreams-powered Subgraph (Solana Voting Application)
 
 This is a [Substreams-powered Subgraph](https://thegraph.com/docs/en/sps/introduction/) that retrieves data from the [Solana Foundation's Example Voting Application](https://github.com/solana-developers/developer-bootcamp-2024/tree/main/project-2-voting).
 
