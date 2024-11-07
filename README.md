@@ -2,6 +2,8 @@
 
 This is a [Substreams-powered Subgraph](https://thegraph.com/docs/en/sps/introduction/) that retrieves data from the [Solana Foundation's Example Voting Application](https://github.com/solana-developers/developer-bootcamp-2024/tree/main/project-2-voting).
 
+![The Application](./solana-voting-app.png)
+
 ## Get Started
 
 The Substreams has been auto-generated (using the `substreams init` CLI) from the JSON Anchor IDL of the Voting Application, which is deployed in Solana Devnet with Program ID `AaxYiadTQSPFswtmEpjZ15vQnjzkryHhgnJz2GjxxbeV`.
